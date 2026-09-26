@@ -84,11 +84,13 @@ People from every career stage and area of neuroscience were brought together to
 
 </p>
 
+```{=html}
 <div class="photo-grid">
 <img src="images/ons2025_group_photo.png" alt="Participants at the OIST Neuroscience Symposium 2025">
 <img src="images/ons2025_posters_session.png" alt="Poster session at the OIST Neuroscience Symposium 2025">
 <img src="images/ons2025_social_gathering.png" alt="Social gathering at the OIST Neuroscience Symposium 2025">
 </div>
+```
 
 <div class="themes-section">
 
@@ -175,7 +177,7 @@ People from every career stage and area of neuroscience were brought together to
 
 <p class="join-eyebrow">DECEMBER 7–8 · OIST</p>
 
-<h2>JOIN US AT<br>ONS 2026</h2>
+<h2>JOIN US AT <br><span class="join-title-event">ONS 2026</span></h2>
 
 <p class="join-intro">
 Two days to share your science, discover research happening across OIST,
@@ -211,6 +213,8 @@ and connect with the neuroscience community.
 
 </div>
 
+
+</div>
 
 <div id="registration" class="join-register">
 
@@ -249,6 +253,13 @@ REGISTER HERE:
 
 </div>
 
+<p class="registration-deadline">
+<strong>REGISTRATION DEADLINE:</strong> <strike>(OCTOBER 2)</strike> &#8594; OCTOBER 10<br>
+Applies to all participant groups.
+</p>
+
+</div>
+
 </div>
 
 <footer class="site-footer">
@@ -269,5 +280,4 @@ oistneuroscienceclub@365groups.oist.jp
 </div>
 </footer>
 
-</div>
 </section>

@@ -132,6 +132,10 @@ body {
   display: block;
 }
 
+.hero-main {
+  min-width: 0;
+}
+
 .hero-title .symposium-title {
   color: var(--ons-navy-blue);
 }
@@ -892,9 +896,11 @@ body {
 
 
   .hero-title {
-    font-size: clamp(3rem, 11vw, 5.5rem);
+    font-size: clamp(1rem, 7.5vw, 4.2rem);
 
     line-height: 0.88;
+
+    overflow-wrap: anywhere;
   }
 
 
@@ -994,6 +1000,11 @@ body {
   line-height: 0.85;
 
   letter-spacing: 0.04em;
+}
+
+
+.join-section h2 .join-title-event {
+  color: var(--ons-navy-blue);
 }
 
 
@@ -1130,6 +1141,15 @@ body {
   flex-direction: column;
 
   gap: 0.75rem;
+}
+
+
+.registration-deadline {
+  margin: 1rem 0 0;
+  color: var(--ons-dark);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 
@@ -1315,7 +1335,7 @@ body {
 
 
   .hero-title {
-    font-size: clamp(2.6rem, 13vw, 4.2rem);
+    font-size: clamp(1rem, 7.5vw, 4.2rem);
 
     letter-spacing: 0.035em;
   }
@@ -1402,7 +1422,9 @@ body {
 
 
   .join-section h2 {
-    font-size: clamp(3rem, 15vw, 4.5rem);
+    font-size: clamp(1.5rem, 10vw, 3.75rem);
+
+    overflow-wrap: anywhere;
   }
 
 
@@ -1419,7 +1441,7 @@ body {
 
 
   .join-inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 4rem;
   }
 
